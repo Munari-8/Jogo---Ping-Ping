@@ -1,0 +1,88 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+    display: none;
+    position: relative;
+    width: 600px;
+    height: 421px;
+    border: 5px solid white;
+}
+
+.racket1, .racket2 {
+    position: absolute;
+    width: 15px;
+    height: 75px;
+    background-color: white;
+}
+
+.racket1 {
+    top: 175px;
+    left: 75px;
+}
+
+.racket2 {
+    top: 175px;
+    right: 75px;
+}
+
+.littleBall {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 210px;
+    left: 295px;
+    background-color: white;
+}
+
+.scoreboard {
+    display: none;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.middleLine {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: transparent;
+    border-left: 4px dashed white;
+}
+
+.botaoStart {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 4px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botaoStart:hover {
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.botaoStart:active {
+    background-color: white;
+    transform: scale(1.05);
+}
